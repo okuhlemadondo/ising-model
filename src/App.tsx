@@ -56,12 +56,7 @@ function App() {
         <div className={`min-h-screen transition-colors duration-300 ${themeClass} flex flex-col font-sans overflow-x-hidden`}>
 
             {/* Header Navigation */}
-            <header className={`fixed top-0 left-0 w-full p-4 lg:p-6 flex justify-between items-center z-50 ${headerClass}`}>
-                <div className="flex items-center gap-2">
-                    <div className={`w-2 h-2 rounded-full animate-pulse ${isDarkMode ? 'bg-white' : 'bg-black'}`}></div>
-                    <span className={`text-[10px] tracking-[0.25em] uppercase font-bold ${isDarkMode ? 'text-gray-300' : 'text-gray-600'}`}>Ising.Sim</span>
-                </div>
-
+            <header className={`fixed top-0 left-0 w-full p-4 lg:p-6 flex justify-end items-center z-50 ${headerClass}`}>
                 <button
                     onClick={toggleTheme}
                     className={`p-2 rounded-full transition-all ${isDarkMode ? 'hover:bg-white/10 text-gray-400 hover:text-white' : 'hover:bg-black/10 text-gray-600 hover:text-black'}`}

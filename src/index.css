@@ -9,8 +9,8 @@
 
 body {
   margin: 0;
-  overflow: hidden;
-  /* Prevent scroll if full screen app */
+  overflow-x: hidden;
+  /* Only prevent horizontal scroll */
 }
 
 /* Custom Scrollbar for technical look */
