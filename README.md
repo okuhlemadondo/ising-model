@@ -3,7 +3,6 @@
 > A high-performance, interactive visualization of the 2D Ising Model of ferromagnetism, built with React, TypeScript, and the HTML5 Canvas API.
 
 ![Ising Model Simulation](./public/screenshot.png)
-*(Note: You can add a screenshot here if you have one, or remove this line)*
 
 ## Overview
 
